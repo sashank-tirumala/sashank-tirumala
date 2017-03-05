@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Indie+Flower|Roboto+Condensed|Roboto+Slab|Source+Sans+Pro');
+
+
+ul.navbar{
+	position: relative;
+	top:10px;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	background-color: #DC3D24;
+
+}
+ul.navbar li{
+	float:left;
+
+}
+ul.navbar li a{
+	display: inline-block;
+	color: white;
+	font-family: Quicksand;
+	text-align:center;
+	background-color: #DC3D24;
+
+	padding:14px 180px;
+	text-decoration: none;
+	font-weight: medium;
+}
+.mainheading{
+	position:relative;
+	top: 100px;
+	text-align: center;
+	font-size: 80px;
+	font-family: Shrikhand;
+	color: white; 
+	z-index: 5;
+}
+/*div.idcard{
+	position: relative;
+	background-color: #E89F65;
+	border-style: solid;
+	border-color:black;
+	background-position: center;
+
+	z-index: 5;
+	min-height: 500px;
+
+}*/
+body {
+
+background: rgba(8,6,8,1);
+background: -moz-linear-gradient(left, rgba(8,6,8,1) 0%, rgba(19,19,19,1) 0%, rgba(28,28,28,1) 9%, rgba(17,17,17,1) 27%, rgba(0,0,0,1) 56%, rgba(44,44,44,1) 82%, rgba(76,76,76,1) 97%, rgba(89,89,89,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(8,6,8,1)), color-stop(0%, rgba(19,19,19,1)), color-stop(9%, rgba(28,28,28,1)), color-stop(27%, rgba(17,17,17,1)), color-stop(56%, rgba(0,0,0,1)), color-stop(82%, rgba(44,44,44,1)), color-stop(97%, rgba(76,76,76,1)), color-stop(100%, rgba(89,89,89,1)));
+background: -webkit-linear-gradient(left, rgba(8,6,8,1) 0%, rgba(19,19,19,1) 0%, rgba(28,28,28,1) 9%, rgba(17,17,17,1) 27%, rgba(0,0,0,1) 56%, rgba(44,44,44,1) 82%, rgba(76,76,76,1) 97%, rgba(89,89,89,1) 100%);
+background: -o-linear-gradient(left, rgba(8,6,8,1) 0%, rgba(19,19,19,1) 0%, rgba(28,28,28,1) 9%, rgba(17,17,17,1) 27%, rgba(0,0,0,1) 56%, rgba(44,44,44,1) 82%, rgba(76,76,76,1) 97%, rgba(89,89,89,1) 100%);
+background: -ms-linear-gradient(left, rgba(8,6,8,1) 0%, rgba(19,19,19,1) 0%, rgba(28,28,28,1) 9%, rgba(17,17,17,1) 27%, rgba(0,0,0,1) 56%, rgba(44,44,44,1) 82%, rgba(76,76,76,1) 97%, rgba(89,89,89,1) 100%);
+background: linear-gradient(to right, rgba(8,6,8,1) 0%, rgba(19,19,19,1) 0%, rgba(28,28,28,1) 9%, rgba(17,17,17,1) 27%, rgba(0,0,0,1) 56%, rgba(44,44,44,1) 82%, rgba(76,76,76,1) 97%, rgba(89,89,89,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#080608', endColorstr='#595959', GradientType=1 );
+	z-index: 1;
+
+
+}
+ul.idCard{
+	position: relative;
+	background-color: #e8b965;
+	border-style: solid;
+	border-color:black;
+	background-position: center;
+	z-index: 5;
+	width: 670px;
+	padding:20px;
+	margin:50px;
+	left:295px;
+	list-style-type: none; 
+	line-height: 50px;
+	border-radius: 30px;
+
+
+	
+}
+
+ul.idCard li{
+	position: relative;
+	color:#34495e;
+	font-style: helvetica;
+	font-weight: bold;
+	left: 250px;
+	font-size:18px;
+	font-family: Droid Sans;
+	
+}
+
+img#IDphoto{
+ height:200px;
+ width:auto;
+ position:absolute;
+ left:380px;
+ top:180px;
+ z-index: 10;
+ opacity:1.1;
+ border-radius: 10px;
+}
+
+.leftbox{
+	border-style: solid;
+	border-width: 2px;
+	border-color: green;
+	width:45%;
+	margin:10px;
+	height:600px;
+	background-color: #F29B00;
+	z-index: 5;
+	border-radius:20px;
+}
+p#sports{
+	font-size: 33px;
+	color: #74141F;
+	font-family:Indie Flower;
+	font-weight: bold;
+	padding-left:10px;
+}
+p#hobby{
+	font-size: 33px;
+	position:relative;
+	top:175px;
+	color: #74141F;
+	font-family:Indie Flower;
+	font-weight: bold;
+	padding-left:10px;
+
+
+}
+ img.sports{
+ 	position: relative;
+ 	height:150px;
+ 	width: 150px;
+ 	padding:20px;
+ 	bottom:90px;
+ 	padding-bottom: 70px;
+ }
+ .rightbox{
+	position: relative;
+	left:650px;
+	bottom:615px;
+	background-color: #CCD4C5;
+	border-style: solid;
+	border-width: 2px;
+	border-color: green;
+	width:45%;
+	margin:10px;
+	height:600px;
+	border-radius: 20px;
+}
+
+p#sports1{
+	font-size: 33px;
+	color: #AA2E76;
+	font-family:Indie Flower;
+	font-weight: bold;
+	padding-left:10px;
+
+}
+p#hobby1{
+	font-size: 33px;
+	position:relative;
+	top:175px;
+	color:#AA2E76;
+	font-family:Indie Flower;
+	font-weight: bold;
+	border-radius:20px;
+	padding-left:10px;
+
+
+}
+
+
+
+
+
+

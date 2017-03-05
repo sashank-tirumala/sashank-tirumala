@@ -1,0 +1,98 @@
+/* First CSS File */
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+body{
+background: rgba(8,6,8,1);
+background: -moz-linear-gradient(left, rgba(8,6,8,1) 0%, rgba(19,19,19,1) 0%, rgba(28,28,28,1) 15%, rgba(76,76,76,1) 46%, rgba(61,60,61,1) 51%, rgba(56,54,56,1) 56%, rgba(44,44,44,1) 76%, rgba(22,22,22,1) 84%, rgba(0,0,0,1) 92%, rgba(17,17,17,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(8,6,8,1)), color-stop(0%, rgba(19,19,19,1)), color-stop(15%, rgba(28,28,28,1)), color-stop(46%, rgba(76,76,76,1)), color-stop(51%, rgba(61,60,61,1)), color-stop(56%, rgba(56,54,56,1)), color-stop(76%, rgba(44,44,44,1)), color-stop(84%, rgba(22,22,22,1)), color-stop(92%, rgba(0,0,0,1)), color-stop(100%, rgba(17,17,17,1)));
+background: -webkit-linear-gradient(left, rgba(8,6,8,1) 0%, rgba(19,19,19,1) 0%, rgba(28,28,28,1) 15%, rgba(76,76,76,1) 46%, rgba(61,60,61,1) 51%, rgba(56,54,56,1) 56%, rgba(44,44,44,1) 76%, rgba(22,22,22,1) 84%, rgba(0,0,0,1) 92%, rgba(17,17,17,1) 100%);
+background: -o-linear-gradient(left, rgba(8,6,8,1) 0%, rgba(19,19,19,1) 0%, rgba(28,28,28,1) 15%, rgba(76,76,76,1) 46%, rgba(61,60,61,1) 51%, rgba(56,54,56,1) 56%, rgba(44,44,44,1) 76%, rgba(22,22,22,1) 84%, rgba(0,0,0,1) 92%, rgba(17,17,17,1) 100%);
+background: -ms-linear-gradient(left, rgba(8,6,8,1) 0%, rgba(19,19,19,1) 0%, rgba(28,28,28,1) 15%, rgba(76,76,76,1) 46%, rgba(61,60,61,1) 51%, rgba(56,54,56,1) 56%, rgba(44,44,44,1) 76%, rgba(22,22,22,1) 84%, rgba(0,0,0,1) 92%, rgba(17,17,17,1) 100%);
+background: linear-gradient(to right, rgba(8,6,8,1) 0%, rgba(19,19,19,1) 0%, rgba(28,28,28,1) 15%, rgba(76,76,76,1) 46%, rgba(61,60,61,1) 51%, rgba(56,54,56,1) 56%, rgba(44,44,44,1) 76%, rgba(22,22,22,1) 84%, rgba(0,0,0,1) 92%, rgba(17,17,17,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#080608', endColorstr='#111111', GradientType=1 );	z-index=-2;
+}
+
+
+ul.navbar{
+	position: relative;
+	top:10px;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	background-color: #DC3D24;
+
+}
+ul.navbar li{
+	float:left;
+
+}
+ul.navbar li a{
+	display: inline-block;
+	color: white;
+	font-family: Quicksand;
+	text-align:center;
+	background-color: #DC3D24;
+	padding:14px 180px;
+	text-decoration: none;
+	font-weight: medium;
+}
+.mainheading{
+	position:relative;
+	top: 100px;
+	text-align: center;
+	font-size: 80px;
+	font-family: Shrikhand;
+	color: white; 
+	z-index: 1;
+}
+ul.icons{
+	
+	list-style-type: none;
+	overflow: hidden;
+
+}
+/*ul.icons li{
+	float: left;
+}*/
+
+img {
+	height: 300px;
+	width:300px;
+	opacity: 0.9;
+}
+
+img#fb{
+	position: relative;
+	left:170px;
+	padding:20px;
+	border-radius: 30px;
+
+}
+img#qr{
+	position: relative;
+	bottom:345px;
+	left:620px;
+	padding:20px;
+	border-radius: 30px;
+
+}
+img#em{
+	position: relative;
+	left:170px;
+	padding:20px;
+	bottom:345px;
+	border-radius: 30px;
+
+
+}
+img#no{
+	position: relative;
+	bottom:690px;
+	left:620px;
+	padding:20px;
+	border-radius: 30px;
+
+}
+/*#DC3D24*/
+
